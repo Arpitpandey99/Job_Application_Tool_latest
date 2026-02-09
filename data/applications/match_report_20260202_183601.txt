@@ -1,0 +1,31 @@
+
+JOB MATCH REPORT
+Generated: 2026-02-02 18:35:13
+
+CANDIDATE: ARPIT PANDEY
+EXPERIENCE: 3.5 years
+LOCATION: 
+
+TOP SKILLS:
+Python, SQL, Linux, Pandas, Polars, Scikit-Learn, Tensorflow, Keras, Pytorch, OpenCV, Data Preprocessing, Data Analysis and Visualization, Dimentionality Reduction (PCA), Feature Engineering and EDA, Statistical Analysis
+
+===================================
+TOP MATCHING JOBS (1)
+===================================
+
+
+1. Data Scientist I
+   Company: Elevate Global
+   Location: Bengaluru, Karnataka, India | Not specified
+   Match Score: 53.74%
+   Skill Match: 40.0%
+   
+   Why it's a good fit:
+   Strong match based on 3.5 years experience in Python, SQL, Linux. Skills align well with job requirements.
+   
+   Matching Skills: python, sql
+   Skills to develop: machine learning, data science, ai
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-scientist-i-at-elevate-global-4367837104?position=5&pageNum=0&refId=2vTB2f0aCkfIeQhujnTOYw%3D%3D&trackingId=8i%2BOhberlT1uEX2BP1LKtQ%3D%3D
+   
+   ---

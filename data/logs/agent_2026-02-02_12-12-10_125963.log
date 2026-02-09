@@ -1,0 +1,219 @@
+2026-02-02 12:12:10 | INFO | Initializing Job Application Agent with OpenAI GPT...
+2026-02-02 12:12:10 | INFO | Loading sentence transformer model...
+2026-02-02 12:12:14 | INFO | Model loaded successfully
+2026-02-02 12:12:14 | INFO | Agent initialized successfully with GPT-3.5-turbo
+2026-02-02 12:12:14 | INFO | ======================================================================
+2026-02-02 12:12:14 | INFO | STARTING FULL JOB APPLICATION PIPELINE (OpenAI GPT)
+2026-02-02 12:12:14 | INFO | ======================================================================
+2026-02-02 12:12:14 | INFO | ==================================================
+2026-02-02 12:12:14 | INFO | STEP 1: Loading and parsing resume
+2026-02-02 12:12:14 | INFO | ==================================================
+2026-02-02 12:12:14 | INFO | Parsing resume: data/resumes/resume.pdf
+2026-02-02 12:12:18 | ERROR | AI parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:12:18 | INFO | Successfully parsed resume for: ARPIT PANDEY
+2026-02-02 12:12:18 | INFO | Parsed resume for: ARPIT PANDEY
+2026-02-02 12:12:18 | INFO | Experience: 3.0 years
+2026-02-02 12:12:18 | INFO | Skills: 18 identified
+2026-02-02 12:12:18 | INFO | Resume data saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/parsed_resume.json
+2026-02-02 12:12:18 | INFO | ==================================================
+2026-02-02 12:12:18 | INFO | STEP 2: Scraping jobs from platforms
+2026-02-02 12:12:18 | INFO | ==================================================
+2026-02-02 12:12:18 | INFO | Searching for: Data Scientist
+2026-02-02 12:12:18 | INFO | Location: India
+2026-02-02 12:12:18 | INFO | Platforms: linkedin, indeed, naukri
+2026-02-02 12:12:18 | INFO | Scraping LinkedIn for: Data Scientist in India
+2026-02-02 12:12:44 | INFO | Scraped: Data Scientist at NielsenIQ
+2026-02-02 12:12:48 | INFO | Scraped: Machine Learning Engineer (T25) at eBay
+2026-02-02 12:12:52 | INFO | Scraped: Data Scientist at ProcDNA
+2026-02-02 12:12:55 | INFO | Scraped: Machine Learning Engineer - Bangalore at HYrEzy Tech Solutions
+2026-02-02 12:12:58 | INFO | Scraped: Data Engineer Python- Associate- Software Engineer at Morgan Stanley
+2026-02-02 12:13:02 | INFO | Scraped: Python+ Gen AI Lead at Infosys
+2026-02-02 12:13:06 | INFO | Scraped: Machine Learning Engineer at VAYUZ Technologies
+2026-02-02 12:13:10 | INFO | Scraped: Data Science Intern at BNP Paribas
+2026-02-02 12:13:13 | INFO | Scraped: Generative AI, AI/ML, Python, Databricks at Infosys
+2026-02-02 12:13:17 | INFO | Scraped: Data Scientist at Tata Consultancy Services
+2026-02-02 12:13:21 | INFO | Scraped: Data Science Specialist at Kotak Life
+2026-02-02 12:13:25 | INFO | Scraped: Specialist - Finance Data Scientist at HARMAN India
+2026-02-02 12:13:29 | INFO | Scraped: Associate Data Scientist at Anko GCC
+2026-02-02 12:13:33 | INFO | Scraped: Data Scientist (Remote) at Keystone Recruitment
+2026-02-02 12:13:37 | INFO | Scraped: Machine Learning Engineer at Flexiple
+2026-02-02 12:13:41 | INFO | Scraped: AI Engineer at Viraaj HR Solutions Private Limited
+2026-02-02 12:13:45 | INFO | Scraped: GCP AI/ML at Tata Consultancy Services
+2026-02-02 12:13:48 | INFO | Scraped: AI / ML Engineer at Accenture services Pvt Ltd
+2026-02-02 12:13:52 | INFO | Scraped: Machine Learning Engineer at Bornbhukkad
+2026-02-02 12:13:55 | INFO | Scraped: AI Engineer at Viraaj HR Solutions Private Limited
+2026-02-02 12:13:59 | INFO | Scraped: SDE-3 at Simplilearn
+2026-02-02 12:14:03 | INFO | Scraped: Data Science Intern at Inficore Soft
+2026-02-02 12:14:06 | INFO | Scraped: AI Engineer at Viraaj HR Solutions Private Limited
+2026-02-02 12:14:10 | INFO | Scraped: AI Engineer at Viraaj HR Solutions Private Limited
+2026-02-02 12:14:13 | INFO | Scraped: AI/ML Testing Specialist at RapidBrains
+2026-02-02 12:14:17 | INFO | Scraped: AI Engineer at Viraaj HR Solutions Private Limited
+2026-02-02 12:14:21 | INFO | Scraped: Data Scientist at Smiths Detection
+2026-02-02 12:14:24 | INFO | Scraped: Data Science Intern at Dexter's Tech
+2026-02-02 12:14:28 | INFO | Scraped: Machine Learning Engineer at SourcingXPress
+2026-02-02 12:14:31 | INFO | Scraped: Senior Data Scientist at Tata Consultancy Services
+2026-02-02 12:14:35 | INFO | Scraped: Ai Data Scientist at Best Job Tool
+2026-02-02 12:14:39 | INFO | Scraped: Senior Machine Learning Engineer at r3 Consultant
+2026-02-02 12:14:43 | INFO | Scraped: Machine Learning Engineer III - Recommendation Systems at Glance
+2026-02-02 12:14:47 | INFO | Scraped: Quality Assurance Engineer at Bennett Coleman & Co. Ltd. (The Times of India)
+2026-02-02 12:14:50 | INFO | Scraped: Data Scientist at Enterprise Bot
+2026-02-02 12:14:54 | INFO | Scraped: Senior Data Scientist at Hellowork Consultants
+2026-02-02 12:14:58 | INFO | Scraped: Machine Learning Engineer II- Recommendation Systems at Glance
+2026-02-02 12:15:02 | INFO | Scraped: Data Science Intern at Zetheta Algorithms Private Limited
+2026-02-02 12:15:06 | INFO | Scraped: Senior Engineer, Python (Data & AI) at Tide
+2026-02-02 12:15:10 | INFO | Scraped: Data Science Intern at SKOOLLAGE
+2026-02-02 12:15:14 | INFO | Scraped: Senior Data Scientist at GITAA
+2026-02-02 12:15:18 | INFO | Scraped: Lead Machine Learning Engineer at Data-Hat AI
+2026-02-02 12:15:21 | INFO | Scraped: Data Scientist - GBS Commercial at AB InBev APAC
+2026-02-02 12:15:24 | INFO | Scraped: Senior Software Engineer, Machine Learning - Data Platforms at Roku
+2026-02-02 12:15:28 | INFO | Scraped: MLOps Engineer at Infosys
+2026-02-02 12:15:33 | INFO | Scraped: Data Science Senior Associate at Salesforce
+2026-02-02 12:15:36 | INFO | Scraped: Senior Data Scientist at Infosys
+2026-02-02 12:15:40 | INFO | Scraped: Machine Learning Engineer — AI & Native Language Systems at Visionary
+2026-02-02 12:15:43 | INFO | Scraped: AI Engineer at Viraaj HR Solutions Private Limited
+2026-02-02 12:15:47 | INFO | Scraped: Senior Data Scientist at eBay
+2026-02-02 12:15:50 | INFO | Scraped: Engineer at Qualcomm
+2026-02-02 12:15:54 | INFO | Scraped: MLOPS Engineer at Capgemini
+2026-02-02 12:15:57 | INFO | Scraped: Senior Research Associate at NielsenIQ
+2026-02-02 12:16:01 | INFO | Scraped: Data Science Intern at Infrabyte Consulting
+2026-02-02 12:16:05 | INFO | Scraped: AI Engineer at Viraaj HR Solutions Private Limited
+2026-02-02 12:16:09 | INFO | Scraped: AI -Data Engineer (Location: Hyderabad, Bangalore, Chennai, Pune) at DigiHelic Solutions Pvt. Ltd.
+2026-02-02 12:16:12 | INFO | Scraped: Machine Learning Engineer at MiQ
+2026-02-02 12:16:16 | INFO | Scraped: Machine Learning Engineer at SourcingXPress
+2026-02-02 12:16:20 | INFO | Scraped: Data Science Intern at WEBBOOST SOLUTION IT SERVICES
+2026-02-02 12:16:24 | INFO | Scraped: Data Science Senior Associate at Salesforce
+2026-02-02 12:16:28 | INFO | Scraped: AI Engineer at Viraaj HR Solutions Private Limited
+2026-02-02 12:16:32 | INFO | Scraped: Data Scientist at Smiths Detection
+2026-02-02 12:16:36 | INFO | Scraped: Data Science Intern at Dexter's Tech
+2026-02-02 12:16:40 | INFO | Scraped: Machine Learning Engineer at SourcingXPress
+2026-02-02 12:16:44 | INFO | Scraped: Senior Data Scientist at Tata Consultancy Services
+2026-02-02 12:16:48 | INFO | Scraped: Ai Data Scientist at Best Job Tool
+2026-02-02 12:16:52 | INFO | Scraped: Senior Machine Learning Engineer at r3 Consultant
+2026-02-02 12:16:56 | INFO | Scraped: Machine Learning Engineer III - Recommendation Systems at Glance
+2026-02-02 12:16:59 | INFO | Scraped: Quality Assurance Engineer at Bennett Coleman & Co. Ltd. (The Times of India)
+2026-02-02 12:17:03 | INFO | Scraped: Data Scientist at Enterprise Bot
+2026-02-02 12:17:03 | INFO | Scraped 70 jobs from linkedin
+2026-02-02 12:17:10 | INFO | Scraping Indeed for: Data Scientist in India
+2026-02-02 12:17:19 | INFO | Scraped 0 jobs from indeed
+2026-02-02 12:17:24 | INFO | Scraping Naukri for: Data Scientist in India
+2026-02-02 12:17:36 | INFO | Scraped 0 jobs from naukri
+2026-02-02 12:17:45 | INFO | Total unique jobs scraped: 52
+2026-02-02 12:17:45 | INFO | Total jobs scraped: 52
+2026-02-02 12:17:45 | INFO | Jobs data saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/jobs/scraped_jobs_20260202_121745.json
+2026-02-02 12:17:45 | INFO | ==================================================
+2026-02-02 12:17:45 | INFO | STEP 3: Matching jobs with resume
+2026-02-02 12:17:45 | INFO | ==================================================
+2026-02-02 12:17:45 | INFO | Matching 52 jobs with resume...
+2026-02-02 12:17:50 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:17:53 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:17:56 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:17:59 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:01 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:04 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:07 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:10 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:12 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:15 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:17 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:19 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:22 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:24 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:26 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:29 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:31 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:33 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:36 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:39 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:41 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:44 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:46 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:48 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:51 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:53 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:56 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:18:58 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:00 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:03 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:05 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:07 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:10 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:12 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:14 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:17 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:19 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:21 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:24 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:26 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:28 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:31 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:33 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:35 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:38 | WARNING | Could not get AI reasoning: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:38 | INFO | Found 45 matching jobs (threshold: 0.5)
+2026-02-02 12:19:38 | INFO | Found 45 matching jobs
+2026-02-02 12:19:38 | INFO | Match report saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/applications/match_report_20260202_121938.txt
+2026-02-02 12:19:38 | INFO | ==================================================
+2026-02-02 12:19:38 | INFO | STEP 4: Generating cover letters
+2026-02-02 12:19:38 | INFO | ==================================================
+2026-02-02 12:19:38 | INFO | Generating cover letter 1/5 for: Generative AI, AI/ML, Python, Databricks
+2026-02-02 12:19:38 | INFO | Generating cover letter for: Generative AI, AI/ML, Python, Databricks at Infosys
+2026-02-02 12:19:40 | ERROR | Failed to generate cover letter: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:42 | ERROR | Failed to optimize cover letter: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:42 | INFO | Cover letter saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/applications/cover_letters/cover_letter_Infosys_linkedin_generative-ai-ai-ml-python-databricks-at-infosys-4367787291.txt
+2026-02-02 12:19:45 | INFO | Generating cover letter 2/5 for: Senior Data Scientist
+2026-02-02 12:19:45 | INFO | Generating cover letter for: Senior Data Scientist at Infosys
+2026-02-02 12:19:48 | ERROR | Failed to generate cover letter: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:50 | ERROR | Failed to optimize cover letter: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:50 | INFO | Cover letter saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/applications/cover_letters/cover_letter_Infosys_linkedin_senior-data-scientist-at-infosys-4367733398.txt
+2026-02-02 12:19:53 | INFO | Generating cover letter 3/5 for: AI / ML Engineer
+2026-02-02 12:19:53 | INFO | Generating cover letter for: AI / ML Engineer at Accenture services Pvt Ltd
+2026-02-02 12:19:56 | ERROR | Failed to generate cover letter: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:58 | ERROR | Failed to optimize cover letter: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:19:58 | INFO | Cover letter saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/applications/cover_letters/cover_letter_Accenture_services_Pvt_Ltd_linkedin_ai-ml-engineer-at-accenture-services-pvt-ltd-4367752955.txt
+2026-02-02 12:20:01 | INFO | Generating cover letter 4/5 for: Python+ Gen AI Lead
+2026-02-02 12:20:01 | INFO | Generating cover letter for: Python+ Gen AI Lead at Infosys
+2026-02-02 12:20:04 | ERROR | Failed to generate cover letter: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:20:08 | ERROR | Failed to optimize cover letter: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:20:08 | INFO | Cover letter saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/applications/cover_letters/cover_letter_Infosys_linkedin_python%2B-gen-ai-lead-at-infosys-4351852503.txt
+2026-02-02 12:20:11 | INFO | Generating cover letter 5/5 for: AI -Data Engineer (Location: Hyderabad, Bangalore, Chennai, Pune)
+2026-02-02 12:20:11 | INFO | Generating cover letter for: AI -Data Engineer (Location: Hyderabad, Bangalore, Chennai, Pune) at DigiHelic Solutions Pvt. Ltd.
+2026-02-02 12:20:14 | ERROR | Failed to generate cover letter: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:20:17 | ERROR | Failed to optimize cover letter: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-02 12:20:17 | INFO | Cover letter saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/applications/cover_letters/cover_letter_DigiHelic_Solutions_Pvt._Ltd._linkedin_ai-data-engineer-location-hyderabad-bangalore-chennai-pune-at-digihelic-solutions-pvt-ltd-4357411087.txt
+2026-02-02 12:20:20 | INFO | Generated 5 cover letters
+2026-02-02 12:20:20 | INFO | ==================================================
+2026-02-02 12:20:20 | INFO | STEP 5: Applying to jobs
+2026-02-02 12:20:20 | INFO | ==================================================
+2026-02-02 12:20:20 | WARNING | Auto-submit is disabled. Applications will be prepared but not submitted.
+2026-02-02 12:20:20 | INFO | Processing application 1/5: Generative AI, AI/ML, Python, Databricks
+2026-02-02 12:20:20 | INFO | Starting application for: Generative AI, AI/ML, Python, Databricks at Infosys
+2026-02-02 12:20:21 | INFO | LinkedIn application - Manual login required
+2026-02-02 12:20:36 | WARNING | Could not find Easy Apply button - job may require external application
+2026-02-02 12:20:36 | INFO | Added application to tracker: linkedin_generative-ai-ai-ml-python-databricks-at-infosys-4367787291
+2026-02-02 12:21:36 | INFO | Processing application 2/5: Senior Data Scientist
+2026-02-02 12:21:36 | INFO | Starting application for: Senior Data Scientist at Infosys
+2026-02-02 12:21:37 | INFO | LinkedIn application - Manual login required
+2026-02-02 12:21:52 | WARNING | Could not find Easy Apply button - job may require external application
+2026-02-02 12:21:52 | INFO | Added application to tracker: linkedin_senior-data-scientist-at-infosys-4367733398
+2026-02-02 12:22:52 | INFO | Processing application 3/5: AI / ML Engineer
+2026-02-02 12:22:52 | INFO | Starting application for: AI / ML Engineer at Accenture services Pvt Ltd
+2026-02-02 12:22:53 | INFO | LinkedIn application - Manual login required
+2026-02-02 12:23:07 | WARNING | Could not find Easy Apply button - job may require external application
+2026-02-02 12:23:07 | INFO | Added application to tracker: linkedin_ai-ml-engineer-at-accenture-services-pvt-ltd-4367752955
+2026-02-02 12:24:07 | INFO | Processing application 4/5: Python+ Gen AI Lead
+2026-02-02 12:24:07 | INFO | Starting application for: Python+ Gen AI Lead at Infosys
+2026-02-02 12:24:08 | INFO | LinkedIn application - Manual login required
+2026-02-02 12:24:22 | WARNING | Could not find Easy Apply button - job may require external application
+2026-02-02 12:24:22 | INFO | Added application to tracker: linkedin_python%2B-gen-ai-lead-at-infosys-4351852503
+2026-02-02 12:25:22 | INFO | Processing application 5/5: AI -Data Engineer (Location: Hyderabad, Bangalore, Chennai, Pune)
+2026-02-02 12:25:22 | INFO | Starting application for: AI -Data Engineer (Location: Hyderabad, Bangalore, Chennai, Pune) at DigiHelic Solutions Pvt. Ltd.
+2026-02-02 12:25:23 | INFO | LinkedIn application - Manual login required
+2026-02-02 12:25:38 | WARNING | Could not find Easy Apply button - job may require external application
+2026-02-02 12:25:38 | INFO | Added application to tracker: linkedin_ai-data-engineer-location-hyderabad-bangalore-chennai-pune-at-digihelic-solutions-pvt-ltd-4357411087
+2026-02-02 12:26:38 | INFO | Application results saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/applications/application_results_20260202_122638.json
+2026-02-02 12:26:38 | INFO | Applications summary: 0/5 successful
+2026-02-02 12:26:38 | INFO | ======================================================================
+2026-02-02 12:26:38 | INFO | PIPELINE COMPLETED in 864.72 seconds
+2026-02-02 12:26:38 | INFO | ======================================================================
+2026-02-02 12:26:38 | INFO | Total applications tracked: 5
+2026-02-02 12:26:38 | INFO | Average match score: 74.38%

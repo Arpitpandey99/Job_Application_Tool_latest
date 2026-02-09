@@ -1,0 +1,37 @@
+[
+  {
+    "success": false,
+    "job_id": "linkedin_generative-ai-ai-ml-python-databricks-at-infosys-4367787291",
+    "error": "Easy Apply not available",
+    "match_score": 0.7696558594703674,
+    "source": "linkedin"
+  },
+  {
+    "success": false,
+    "job_id": "linkedin_senior-data-scientist-at-infosys-4367733398",
+    "error": "Easy Apply not available",
+    "match_score": 0.7548180262247721,
+    "source": "linkedin"
+  },
+  {
+    "success": false,
+    "job_id": "linkedin_ai-ml-engineer-at-accenture-services-pvt-ltd-4367752955",
+    "error": "Easy Apply not available",
+    "match_score": 0.7352236032485961,
+    "source": "linkedin"
+  },
+  {
+    "success": false,
+    "job_id": "linkedin_python%2B-gen-ai-lead-at-infosys-4351852503",
+    "error": "Easy Apply not available",
+    "match_score": 0.7298456192016601,
+    "source": "linkedin"
+  },
+  {
+    "success": false,
+    "job_id": "linkedin_ai-data-engineer-location-hyderabad-bangalore-chennai-pune-at-digihelic-solutions-pvt-ltd-4357411087",
+    "error": "Easy Apply not available",
+    "match_score": 0.7292485692284323,
+    "source": "linkedin"
+  }
+]

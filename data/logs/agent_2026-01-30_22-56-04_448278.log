@@ -1,0 +1,453 @@
+2026-01-30 22:56:04 | INFO | Initializing Job Application Agent with OpenAI GPT...
+2026-01-30 22:56:04 | INFO | Loading sentence transformer model...
+2026-01-30 22:57:40 | INFO | Model loaded successfully
+2026-01-30 22:57:40 | INFO | Agent initialized successfully with GPT-3.5-turbo
+2026-01-30 22:57:40 | INFO | ======================================================================
+2026-01-30 22:57:40 | INFO | STARTING FULL JOB APPLICATION PIPELINE (OpenAI GPT)
+2026-01-30 22:57:40 | INFO | ======================================================================
+2026-01-30 22:57:40 | INFO | ==================================================
+2026-01-30 22:57:40 | INFO | STEP 1: Loading and parsing resume
+2026-01-30 22:57:40 | INFO | ==================================================
+2026-01-30 22:57:40 | INFO | Parsing resume: data/resumes/resume.pdf
+2026-01-30 22:57:44 | ERROR | AI parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-01-30 22:57:44 | INFO | Successfully parsed resume for: 
+2026-01-30 22:57:44 | INFO | Parsed resume for: 
+2026-01-30 22:57:44 | INFO | Experience: 0.0 years
+2026-01-30 22:57:44 | INFO | Skills: 0 identified
+2026-01-30 22:57:44 | INFO | Resume data saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/parsed_resume.json
+2026-01-30 22:57:44 | INFO | ==================================================
+2026-01-30 22:57:44 | INFO | STEP 2: Scraping jobs from platforms
+2026-01-30 22:57:44 | INFO | ==================================================
+2026-01-30 22:57:44 | INFO | Searching for: Data Scientist
+2026-01-30 22:57:44 | INFO | Location: India
+2026-01-30 22:57:44 | INFO | Platforms: linkedin, indeed, naukri
+2026-01-30 22:57:44 | INFO | Scraping LinkedIn for: Data Scientist in India
+2026-01-30 22:58:38 | INFO | Scraped: Junior Data Scientist at Hypersonix Inc.
+2026-01-30 22:58:42 | INFO | Scraped: Python Developer at Persistent Systems
+2026-01-30 22:58:47 | INFO | Scraped: Data Scientist - Periscope at McKinsey & Company
+2026-01-30 22:58:51 | INFO | Scraped: Data Scientist at Dhurin
+2026-01-30 22:58:55 | INFO | Scraped: Machine Learning Engineer at Accenture
+2026-01-30 22:58:58 | INFO | Scraped: Senior Software Engineer, Machine Learning at Roku
+2026-01-30 22:59:02 | INFO | Scraped: AIML Engineer at Infosys
+2026-01-30 22:59:07 | INFO | Scraped: Machine Learning Engineer at Virtual Connect Solutions
+2026-01-30 22:59:12 | INFO | Scraped: Data Science Specialist at Accelya
+2026-01-30 22:59:16 | INFO | Scraped: Data Scientist/Machine Learning at Infosys
+2026-01-30 22:59:20 | INFO | Scraped: Data Scientist at Infosys
+2026-01-30 22:59:25 | INFO | Scraped: Data Scientist at Shell
+2026-01-30 22:59:29 | INFO | Scraped: Applied AI ML Associate at JPMorganChase
+2026-01-30 22:59:32 | INFO | Scraped: Lead Data Scientist at NielsenIQ
+2026-01-30 22:59:36 | INFO | Scraped: Data Scientist at YourTribe
+2026-01-30 22:59:40 | INFO | Scraped: Scientist 5, Data Science, Generative AI, MLOps and Data engineering , 12+ years at Western Digital
+2026-01-30 22:59:44 | INFO | Scraped: Data Scientist at DigiFocal IT Solutions Pvt Ltd
+2026-01-30 22:59:48 | INFO | Scraped: Data Scientist-Artificial Intelligence at IBM
+2026-01-30 22:59:52 | INFO | Scraped: Data Scientist at Ericsson
+2026-01-30 22:59:56 | INFO | Scraped: Product Data Scientist at Celonis
+2026-01-30 23:00:00 | INFO | Scraped: Analyst Engineer at EY
+2026-01-30 23:00:04 | INFO | Scraped: Data Scientist (Remote) at Keystone Recruitment
+2026-01-30 23:00:08 | INFO | Scraped: Data Scientist - Machine Learning at United Airlines
+2026-01-30 23:00:13 | INFO | Scraped: Python Data Engineer-Hyderabad,Bengaluru,Pune,Chennai at Deloitte
+2026-01-30 23:00:17 | INFO | Scraped: Data Science Specialist at GE Aerospace
+2026-01-30 23:00:20 | INFO | Scraped: NLP- Data Scientist at Infosys
+2026-01-30 23:00:24 | INFO | Scraped: DE&A - AIML - Data Science - Data Science (Other) at Zensar Technologies
+2026-01-30 23:00:28 | INFO | Scraped: Data Science Specialist at GE Aerospace
+2026-01-30 23:00:32 | INFO | Scraped: Senior Data Scientist at GyanSys Inc.
+2026-01-30 23:00:35 | INFO | Scraped: Machine Learning Engineer at Tata Consultancy Services
+2026-01-30 23:00:39 | INFO | Scraped: Machine Learning Engineer at Tata Consultancy Services
+2026-01-30 23:00:44 | INFO | Scraped: Data Scientist - India at TalentDrift
+2026-01-30 23:00:47 | INFO | Scraped: Senior Data Scientist at ORMAE
+2026-01-30 23:00:51 | INFO | Scraped: AI Engineer at Litmus7
+2026-01-30 23:00:55 | INFO | Scraped: AI / ML Engineer at Accenture in India
+2026-01-30 23:00:59 | INFO | Scraped: Middle AI Engineer / Data Scientist at Miratech
+2026-01-30 23:01:02 | INFO | Scraped: Research And Development Scientist at Hindustan Platinum
+2026-01-30 23:01:07 | INFO | Scraped: Senior Applied AI Scientist [T500-22867] at Best Buy™ India
+2026-01-30 23:01:10 | INFO | Scraped: Data Scientist-Artificial Intelligence at IBM
+2026-01-30 23:01:14 | INFO | Scraped: Python Data Engineer-Hyderabad,Bengaluru,Pune,Chennai at Deloitte
+2026-01-30 23:01:18 | INFO | Scraped: Senior Data Scientist at Microsoft
+2026-01-30 23:01:22 | INFO | Scraped: Machine Learning Engineer at Flexiple
+2026-01-30 23:01:26 | INFO | Scraped: Data Scientist at Shell
+2026-01-30 23:01:30 | INFO | Scraped: AI/ML Testing Specialist at RapidBrains
+2026-01-30 23:01:34 | INFO | Scraped: ASSOCIATE MACHINE LEARNING ENGINEER at Wipro
+2026-01-30 23:01:38 | INFO | Scraped: Data Scientist-Artificial Intelligence at IBM
+2026-01-30 23:01:42 | INFO | Scraped: Data Science Engineer at Emerson
+2026-01-30 23:01:46 | INFO | Scraped: Analyst-Data Science at American Express
+2026-01-30 23:01:49 | INFO | Scraped: Data Scientist at IndusInd Bank
+2026-01-30 23:01:53 | INFO | Scraped: Machine Learning Engineer at Deccan AI
+2026-01-30 23:01:57 | INFO | Scraped: Data Scientist – Demand and Supply Planning at Intel Corporation
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=144.0.7559.110); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a83c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000102653748 chromedriver + 227144
+4   chromedriver                        0x0000000102677a20 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 128740
+5   chromedriver                        0x00000001026dce0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 543440
+6   chromedriver                        0x00000001026f2b24 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632808
+7   chromedriver                        0x00000001026a806c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326960
+8   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+9   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+10  chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+11  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+12  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+13  chromedriver                        0x0000000102b75a9c cxxbridge1$str$ptr + 2991740
+14  chromedriver                        0x0000000102b75c18 cxxbridge1$str$ptr + 2992120
+15  chromedriver                        0x0000000102b87044 cxxbridge1$str$ptr + 3062820
+16  libsystem_pthread.dylib             0x0000000198bf6c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000198bf1b80 thread_start + 8
+
+2026-01-30 23:02:00 | INFO | Scraped: Data Science Intern at Zeno Talent
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Data Scientist with Mechanical Engineering at Synectics APAC
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Machine Learning Engineer at Animaker Inc.
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Analyst Engineer at EY
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Data Scientist-Artificial Intelligence at IBM
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Gen AI Lead, Data Scientist at Prospect 33
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Machine Learning Engineer - $14/hr Remote at Crossing Hurdles
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Engineer AI/ML at Empower India
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Associate Data Scientist at Ascendeum
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: NLP- Data Scientist at Infosys
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: DE&A - AIML - Data Science - Data Science (Other) at Zensar Technologies
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Data Science Specialist at GE Aerospace
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Senior Data Scientist at GyanSys Inc.
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Machine Learning Engineer at Tata Consultancy Services
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Machine Learning Engineer at Tata Consultancy Services
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Data Scientist - India at TalentDrift
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: Senior Data Scientist at ORMAE
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: AI Engineer at Litmus7
+2026-01-30 23:02:00 | WARNING | Could not get job details: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102b8efd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x0000000102b873ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010266a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001026a73d8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323740
+4   chromedriver                        0x00000001026d01b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491132
+5   chromedriver                        0x00000001026cf5a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488040
+6   chromedriver                        0x000000010263766c chromedriver + 112236
+7   chromedriver                        0x0000000102b4d5dc cxxbridge1$str$ptr + 2826684
+8   chromedriver                        0x0000000102b50d1c cxxbridge1$str$ptr + 2840828
+9   chromedriver                        0x0000000102b32bec cxxbridge1$str$ptr + 2717644
+10  chromedriver                        0x0000000102b515a0 cxxbridge1$str$ptr + 2843008
+11  chromedriver                        0x0000000102b22cc4 cxxbridge1$str$ptr + 2652324
+12  chromedriver                        0x00000001026352b0 chromedriver + 103088
+13  dyld                                0x0000000198856b98 start + 6076
+
+2026-01-30 23:02:00 | INFO | Scraped: AI / ML Engineer at Accenture in India
+2026-01-30 23:02:00 | INFO | Scraped 70 jobs from linkedin
+2026-01-30 23:02:18 | INFO | Scraping Indeed for: Data Scientist in India
+2026-01-30 23:02:46 | INFO | Scraped 0 jobs from indeed
+2026-01-30 23:02:53 | INFO | Scraping Naukri for: Data Scientist in India
+2026-01-30 23:03:03 | INFO | Scraped 0 jobs from naukri
+2026-01-30 23:03:09 | INFO | Total unique jobs scraped: 52
+2026-01-30 23:03:09 | INFO | Total jobs scraped: 52
+2026-01-30 23:03:09 | INFO | Jobs data saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/jobs/scraped_jobs_20260130_230309.json
+2026-01-30 23:03:09 | INFO | ==================================================
+2026-01-30 23:03:09 | INFO | STEP 3: Matching jobs with resume
+2026-01-30 23:03:09 | INFO | ==================================================
+2026-01-30 23:03:09 | INFO | Matching 52 jobs with resume...
+2026-01-30 23:03:14 | INFO | Found 0 matching jobs (threshold: 0.7)
+2026-01-30 23:03:14 | INFO | Found 0 matching jobs
+2026-01-30 23:03:14 | INFO | Match report saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/applications/match_report_20260130_230314.txt
+2026-01-30 23:03:14 | INFO | ==================================================
+2026-01-30 23:03:14 | INFO | STEP 4: Generating cover letters
+2026-01-30 23:03:14 | INFO | ==================================================
+2026-01-30 23:03:14 | INFO | Generated 0 cover letters
+2026-01-30 23:03:14 | INFO | ==================================================
+2026-01-30 23:03:14 | INFO | STEP 5: Applying to jobs
+2026-01-30 23:03:14 | INFO | ==================================================
+2026-01-30 23:03:14 | WARNING | Auto-submit is disabled. Applications will be prepared but not submitted.
+2026-01-30 23:03:14 | INFO | Application results saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/applications/application_results_20260130_230314.json
+2026-01-30 23:03:14 | INFO | Applications summary: 0/0 successful
+2026-01-30 23:03:14 | INFO | ======================================================================
+2026-01-30 23:03:14 | INFO | PIPELINE COMPLETED in 333.60 seconds
+2026-01-30 23:03:14 | INFO | ======================================================================
+2026-01-30 23:03:14 | INFO | Total applications tracked: 0
+2026-01-30 23:03:14 | INFO | Average match score: 0.00%

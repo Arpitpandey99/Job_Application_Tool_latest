@@ -1,0 +1,35 @@
+2026-02-02 18:46:41 | INFO | Initializing Job Application Agent with OpenAI GPT...
+2026-02-02 18:46:41 | INFO | Loading sentence transformer model...
+2026-02-02 18:46:44 | INFO | Model loaded successfully
+2026-02-02 18:46:44 | INFO | Agent initialized successfully with GPT-3.5-turbo
+2026-02-02 18:46:44 | INFO | ======================================================================
+2026-02-02 18:46:44 | INFO | STARTING FULL JOB APPLICATION PIPELINE (OpenAI GPT)
+2026-02-02 18:46:44 | INFO | ======================================================================
+2026-02-02 18:46:44 | INFO | ==================================================
+2026-02-02 18:46:44 | INFO | STEP 1: Loading and parsing resume
+2026-02-02 18:46:44 | INFO | ==================================================
+2026-02-02 18:46:44 | INFO | Parsing resume: data/resumes/resume.pdf
+2026-02-02 18:46:54 | INFO | Successfully parsed resume for: ARPIT PANDEY
+2026-02-02 18:46:54 | INFO | Parsed resume for: ARPIT PANDEY
+2026-02-02 18:46:54 | INFO | Experience: 3.5 years
+2026-02-02 18:46:54 | INFO | Skills: 35 identified
+2026-02-02 18:46:54 | INFO | Resume data saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/parsed_resume.json
+2026-02-02 18:46:54 | INFO | ==================================================
+2026-02-02 18:46:54 | INFO | STEP 2: Scraping jobs from platforms
+2026-02-02 18:46:54 | INFO | ==================================================
+2026-02-02 18:46:54 | INFO | Searching for: Data Scientist
+2026-02-02 18:46:54 | INFO | Location: India
+2026-02-02 18:46:54 | INFO | Platforms: linkedin, indeed, naukri
+2026-02-02 18:46:54 | INFO | Scraping LinkedIn for: Data Scientist in India
+2026-02-02 18:47:11 | INFO | Scraped 0 jobs from linkedin
+2026-02-02 18:47:20 | INFO | Scraping Indeed for: Data Scientist in India
+2026-02-02 18:47:29 | INFO | Scraped 0 jobs from indeed
+2026-02-02 18:47:36 | INFO | Scraping Naukri for: Data Scientist in India
+2026-02-02 18:47:48 | INFO | Scraped 0 jobs from naukri
+2026-02-02 18:47:57 | INFO | Total unique jobs scraped: 0
+2026-02-02 18:47:57 | INFO | Total jobs scraped: 0
+2026-02-02 18:47:57 | INFO | Jobs data saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/jobs/scraped_jobs_20260202_184757.json
+2026-02-02 18:47:57 | INFO | ==================================================
+2026-02-02 18:47:57 | INFO | STEP 3: Matching jobs with resume
+2026-02-02 18:47:57 | INFO | ==================================================
+2026-02-02 18:47:57 | ERROR | Pipeline failed: No jobs scraped.

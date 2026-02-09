@@ -1,0 +1,735 @@
+
+JOB MATCH REPORT
+Generated: 2026-02-02 12:13:13
+
+CANDIDATE: ARPIT PANDEY
+EXPERIENCE: 3.0 years
+LOCATION: India
+
+TOP SKILLS:
+python, sql, aws, docker, genai, tensorflow, pytorch, scikit-learn, pandas, machine learning, deep learning, nlp, computer vision, data science, ml
+
+===================================
+TOP MATCHING JOBS (45)
+===================================
+
+
+1. Generative AI, AI/ML, Python, Databricks
+   Company: Infosys
+   Location: Bengaluru East, Karnataka, India | Not specified
+   Match Score: 76.97%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: generative ai, python, ai, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/generative-ai-ai-ml-python-databricks-at-infosys-4367787291?position=9&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=2uAf61A0fWnQm3elaI%2BW%2FA%3D%3D
+   
+   ---
+
+2. Senior Data Scientist
+   Company: Infosys
+   Location: Bengaluru East, Karnataka, India | Not specified
+   Match Score: 75.48%
+   Skill Match: 88.9%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: computer vision, ml, generative ai, nlp, python, ai, sql, aws
+   Skills to develop: azure
+   
+   Apply at: https://in.linkedin.com/jobs/view/senior-data-scientist-at-infosys-4367733398?position=47&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=2%2BAZ%2BNDkzdcZuaB5Ex4%2BNA%3D%3D
+   
+   ---
+
+3. AI / ML Engineer
+   Company: Accenture services Pvt Ltd
+   Location: Greater Bengaluru Area | Not specified
+   Match Score: 73.52%
+   Skill Match: 87.5%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: ml, data science, deep learning, genai, python, ai, machine learning
+   Skills to develop: azure
+   
+   Apply at: https://in.linkedin.com/jobs/view/ai-ml-engineer-at-accenture-services-pvt-ltd-4367752955?position=18&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=bbH9YcaqdQL%2FOJRW5KjNmQ%3D%3D
+   
+   ---
+
+4. Python+ Gen AI Lead
+   Company: Infosys
+   Location: Bengaluru East, Karnataka, India | Not specified
+   Match Score: 72.98%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: python, ai, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/python%2B-gen-ai-lead-at-infosys-4351852503?position=6&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=mR0%2Bfa%2F%2F8gnBX4Q3YJbg%2Fg%3D%3D
+   
+   ---
+
+5. AI -Data Engineer (Location: Hyderabad, Bangalore, Chennai, Pune)
+   Company: DigiHelic Solutions Pvt. Ltd.
+   Location: India | Not specified
+   Match Score: 72.92%
+   Skill Match: 90.9%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: ml, llm, generative ai, data science, deep learning, nlp, python, ai, machine learning, aws
+   Skills to develop: azure
+   
+   Apply at: https://in.linkedin.com/jobs/view/ai-data-engineer-location-hyderabad-bangalore-chennai-pune-at-digihelic-solutions-pvt-ltd-4357411087?position=56&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=doLf6MC6pGKyZTe3iL%2BNXw%3D%3D
+   
+   ---
+
+6. Machine Learning Engineer — AI & Native Language Systems
+   Company: Visionary
+   Location: India | Not specified
+   Match Score: 72.52%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, ml, llm, nlp, python, ai, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/machine-learning-engineer-%E2%80%94-ai-native-language-systems-at-visionary-4356899996?position=48&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=ZQJe%2F%2Fqe0gS3zT7pG6f6ig%3D%3D
+   
+   ---
+
+7. Data Science Intern
+   Company: SKOOLLAGE
+   Location: India | Remote
+   Match Score: 72.38%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: scikit-learn, ml, data science, python, pandas, ai, sql, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-science-intern-at-skoollage-4368148919?position=40&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=vhzN5Hq7%2FJLhwyO7H1bujg%3D%3D
+   
+   ---
+
+8. Machine Learning Engineer
+   Company: VAYUZ Technologies
+   Location: Bengaluru, Karnataka, India | Not specified
+   Match Score: 72.24%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, ml, data science, docker, python, ai, sql, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/machine-learning-engineer-at-vayuz-technologies-4357411078?position=7&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=oBFFCC0ekDs%2BfOON%2BU8SKQ%3D%3D
+   
+   ---
+
+9. Machine Learning Engineer
+   Company: MiQ
+   Location: Bengaluru, Karnataka, India | Hybrid
+   Match Score: 71.89%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: ml, llm, python, ai, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/machine-learning-engineer-at-miq-4367736263?position=57&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=kq0yADLrwdsOabEe5dUjzQ%3D%3D
+   
+   ---
+
+10. Data Scientist
+   Company: NielsenIQ
+   Location: Vadodara, Gujarat, India | Not specified
+   Match Score: 70.49%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: data science, python, ai, aws
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-scientist-at-nielseniq-4324950702?position=1&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=h3Wy35EnKUTaa%2BlkEofEUQ%3D%3D
+   
+   ---
+
+11. Data Scientist
+   Company: Tata Consultancy Services
+   Location: Mumbai, Maharashtra, India | Not specified
+   Match Score: 69.37%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, scikit-learn, ml, llm, generative ai, data science, deep learning, nlp, python
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-scientist-at-tata-consultancy-services-4367783869?position=10&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=0Kq6SQw2B7mATNv2nJlO6g%3D%3D
+   
+   ---
+
+12. MLOPS Engineer
+   Company: Capgemini
+   Location: Bengaluru, Karnataka, India | Hybrid
+   Match Score: 69.13%
+   Skill Match: 88.9%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, ml, generative ai, docker, python, ai, machine learning, aws
+   Skills to develop: kubernetes
+   
+   Apply at: https://in.linkedin.com/jobs/view/mlops-engineer-at-capgemini-4366319591?position=52&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=5hYFdFahjPv4yakrli5Ylg%3D%3D
+   
+   ---
+
+13. Data Science Intern
+   Company: Inficore Soft
+   Location: India | Remote
+   Match Score: 68.96%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: data science, python, pandas, sql
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-science-intern-at-inficore-soft-4367720964?position=22&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=dSxA%2Bb6s239Coo%2B0EcenOw%3D%3D
+   
+   ---
+
+14. Data Science Intern
+   Company: WEBBOOST SOLUTION IT SERVICES
+   Location: India | Remote
+   Match Score: 68.09%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, scikit-learn, data science, python, ai, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-science-intern-at-webboost-solution-it-services-4368150794?position=59&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=t00SrOB7wga1d1pnPpx5mw%3D%3D
+   
+   ---
+
+15. Data Science Intern
+   Company: Dexter's Tech
+   Location: India | Remote
+   Match Score: 68.05%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, scikit-learn, data science, python, ai, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-science-intern-at-dexter-s-tech-4367788692?position=28&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=qLJm%2F2k33rkHBC50afXQpA%3D%3D
+   
+   ---
+
+16. Data Science Senior Associate
+   Company: Salesforce
+   Location: Bengaluru, Karnataka, India | Not specified
+   Match Score: 68.03%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: pytorch, ml, llm, deep learning, nlp, python, pandas, ai, machine learning, aws
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-science-senior-associate-at-salesforce-4368136292?position=46&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=MDSrz72Hd4ygPDdxvyRwSg%3D%3D
+   
+   ---
+
+17. Data Scientist (Remote)
+   Company: Keystone Recruitment
+   Location: India | Remote
+   Match Score: 67.95%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, scikit-learn, data science, python, pandas, ai, sql, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-scientist-remote-at-keystone-recruitment-4368105332?position=14&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=0GOnZEHmEd3YHDsr0QH8QA%3D%3D
+   
+   ---
+
+18. MLOps Engineer
+   Company: Infosys
+   Location: Bengaluru East, Karnataka, India | Hybrid
+   Match Score: 67.41%
+   Skill Match: 80.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, scikit-learn, ml, docker, genai, python, ai, aws
+   Skills to develop: azure, kubernetes
+   
+   Apply at: https://in.linkedin.com/jobs/view/mlops-engineer-at-infosys-4367774341?position=45&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=XcBfO3BME9qDJ%2BhD8eOJlw%3D%3D
+   
+   ---
+
+19. Data Scientist
+   Company: Smiths Detection
+   Location: Bengaluru, Karnataka, India | Not specified
+   Match Score: 67.37%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, ml, data science, python, ai, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-scientist-at-smiths-detection-4367795675?position=27&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=94FcepF%2BAjhVsi1HjbnzuQ%3D%3D
+   
+   ---
+
+20. Data Science Intern
+   Company: Infrabyte Consulting
+   Location: India | Remote
+   Match Score: 67.34%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: data science, python, pandas, ai, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-science-intern-at-infrabyte-consulting-4368152647?position=54&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=ha7uQuUI2wJ82b6%2BxhKkdQ%3D%3D
+   
+   ---
+
+21. Senior Machine Learning Engineer
+   Company: r3 Consultant
+   Location: Bengaluru, Karnataka, India | Hybrid
+   Match Score: 66.35%
+   Skill Match: 91.7%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: computer vision, ml, data science, deep learning, docker, nlp, python, pandas, ai, sql
+   Skills to develop: kubernetes
+   
+   Apply at: https://in.linkedin.com/jobs/view/senior-machine-learning-engineer-at-r3-consultant-4368114683?position=32&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=rJxVlaGhBprapmu3GSe8NQ%3D%3D
+   
+   ---
+
+22. Data Scientist
+   Company: Enterprise Bot
+   Location: Bengaluru, Karnataka, India | Not specified
+   Match Score: 66.26%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: llm, data science, deep learning, genai, nlp, python, ai, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-scientist-at-enterprise-bot-4357480014?position=35&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=Nd7JEmQFaF37Q6%2BTdgIf7g%3D%3D
+   
+   ---
+
+23. Senior Data Scientist
+   Company: Hellowork Consultants
+   Location: Bengaluru, Karnataka, India | Hybrid
+   Match Score: 65.90%
+   Skill Match: 84.6%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, ml, llm, generative ai, deep learning, nlp, python, ai, machine learning
+   Skills to develop: java, azure
+   
+   Apply at: https://in.linkedin.com/jobs/view/senior-data-scientist-at-hellowork-consultants-4357441027?position=36&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=Y%2BBLvCsIoD7sLsHV9TE3UA%3D%3D
+   
+   ---
+
+24. Ai Data Scientist
+   Company: Best Job Tool
+   Location: India | Not specified
+   Match Score: 65.76%
+   Skill Match: 88.9%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, scikit-learn, ml, data science, python, ai, sql, machine learning, aws
+   Skills to develop: azure
+   
+   Apply at: https://in.linkedin.com/jobs/view/ai-data-scientist-at-best-job-tool-4368147356?position=31&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=RsT1larGoMkPfWxFE7%2Bsmw%3D%3D
+   
+   ---
+
+25. Machine Learning Engineer II- Recommendation Systems
+   Company: Glance
+   Location: Bengaluru, Karnataka, India | Not specified
+   Match Score: 65.58%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: ml, llm, deep learning, ai, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/machine-learning-engineer-ii-recommendation-systems-at-glance-4367804358?position=37&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=woDZaWB%2FbxkLAkT2b2epCw%3D%3D
+   
+   ---
+
+26. SDE-3
+   Company: Simplilearn
+   Location: Bengaluru South, Karnataka, India | Not specified
+   Match Score: 65.39%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: ml, data science, docker, ai, sql, aws
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/sde-3-at-simplilearn-4357491028?position=21&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=ob0l%2BwF4MMGq3uKmQ3un4g%3D%3D
+   
+   ---
+
+27. AI Engineer
+   Company: Viraaj HR Solutions Private Limited
+   Location: Pune, Maharashtra, India | On-site
+   Match Score: 65.39%
+   Skill Match: 92.3%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, ml, llm, data science, deep learning, docker, nlp, python, ai
+   Skills to develop: kubernetes
+   
+   Apply at: https://in.linkedin.com/jobs/view/ai-engineer-at-viraaj-hr-solutions-private-limited-4367718920?position=16&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=JFe8HEYPgAyFIIslx5aN9w%3D%3D
+   
+   ---
+
+28. Lead Machine Learning Engineer
+   Company: Data-Hat AI
+   Location: India | Remote
+   Match Score: 63.82%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: computer vision, scikit-learn, ml, llm, generative ai, deep learning, genai, python, pandas, ai
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/lead-machine-learning-engineer-at-data-hat-ai-4367725357?position=42&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=vH2WFCT0ZuYK%2BPKIDFqlmw%3D%3D
+   
+   ---
+
+29. Senior Data Scientist
+   Company: Tata Consultancy Services
+   Location: Delhi, India | Not specified
+   Match Score: 63.53%
+   Skill Match: 90.9%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: ml, llm, generative ai, data science, deep learning, nlp, python, ai, machine learning, aws
+   Skills to develop: azure
+   
+   Apply at: https://in.linkedin.com/jobs/view/senior-data-scientist-at-tata-consultancy-services-4331524615?position=30&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=mAmHP%2BTsK9tD7RtTbbBaMw%3D%3D
+   
+   ---
+
+30. Machine Learning Engineer III - Recommendation Systems
+   Company: Glance
+   Location: Bengaluru, Karnataka, India | Not specified
+   Match Score: 63.49%
+   Skill Match: 92.3%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, ml, llm, data science, deep learning, genai, nlp, python, ai
+   Skills to develop: azure
+   
+   Apply at: https://in.linkedin.com/jobs/view/machine-learning-engineer-iii-recommendation-systems-at-glance-4367798411?position=33&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=GPHZa777iuW6BvHlNBe4mQ%3D%3D
+   
+   ---
+
+31. GCP AI/ML
+   Company: Tata Consultancy Services
+   Location: Chennai, Tamil Nadu, India | Not specified
+   Match Score: 63.29%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: ml, python, ai, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/gcp-ai-ml-at-tata-consultancy-services-4367758474?position=17&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=WQ%2FvElpjSNGwEwioEO59Iw%3D%3D
+   
+   ---
+
+32. Data Science Intern
+   Company: Zetheta Algorithms Private Limited
+   Location: India | Remote
+   Match Score: 63.08%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: llm, data science, nlp, python, ai
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-science-intern-at-zetheta-algorithms-private-limited-4367804497?position=38&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=I9T5OS%2B2Jr9HvptBvntS3A%3D%3D
+   
+   ---
+
+33. Machine Learning Engineer
+   Company: Flexiple
+   Location: India | Not specified
+   Match Score: 62.95%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, scikit-learn, generative ai, ai, machine learning
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/machine-learning-engineer-at-flexiple-4368161164?position=15&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=aEqbfkq1Aus6Ajcmh0ooJQ%3D%3D
+   
+   ---
+
+34. Data Science Specialist
+   Company: Kotak Life
+   Location: Mumbai, Maharashtra, India | Hybrid
+   Match Score: 62.69%
+   Skill Match: 75.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: ml, llm, data science, docker, genai, python, ai, machine learning, aws
+   Skills to develop: java, azure, kubernetes
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-science-specialist-at-kotak-life-4368151843?position=11&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=aftTIjXJJ4iIKz2zFAzNjw%3D%3D
+   
+   ---
+
+35. Machine Learning Engineer - Bangalore
+   Company: HYrEzy Tech Solutions
+   Location: Bengaluru, Karnataka, India | Not specified
+   Match Score: 62.33%
+   Skill Match: 92.3%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, scikit-learn, ml, llm, generative ai, data science, nlp, python, pandas
+   Skills to develop: azure
+   
+   Apply at: https://in.linkedin.com/jobs/view/machine-learning-engineer-bangalore-at-hyrezy-tech-solutions-4367793648?position=4&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=ILm2EySoUJFFJJWghJ1Itw%3D%3D
+   
+   ---
+
+36. Data Scientist
+   Company: ProcDNA
+   Location: Pune, Maharashtra, India | Not specified
+   Match Score: 62.31%
+   Skill Match: 88.9%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: ml, data science, docker, python, ai, sql, machine learning, aws
+   Skills to develop: azure
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-scientist-at-procdna-4367966724?position=3&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=5gBl%2BXUDM3tN%2Fp6%2BACw4RQ%3D%3D
+   
+   ---
+
+37. Machine Learning Engineer
+   Company: Bornbhukkad
+   Location: Hyderabad, Telangana, India | Remote
+   Match Score: 60.81%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, scikit-learn, ml, data science, deep learning, python, pandas, ai, sql
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/machine-learning-engineer-at-bornbhukkad-4367748892?position=19&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=RdXx5A4LYDjtOSoGJyoIHA%3D%3D
+   
+   ---
+
+38. AI/ML Testing Specialist
+   Company: RapidBrains
+   Location: Delhi, India | On-site
+   Match Score: 59.55%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: ml, data science, nlp, ai
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/ai-ml-testing-specialist-at-rapidbrains-4367806018?position=25&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=JmftUiCrydPJfl6Cm%2BARUw%3D%3D
+   
+   ---
+
+39. Machine Learning Engineer
+   Company: SourcingXPress
+   Location: Bengaluru, Karnataka, India | Not specified
+   Match Score: 59.02%
+   Skill Match: 81.8%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, scikit-learn, ml, data science, docker, python, ai, machine learning, aws
+   Skills to develop: azure, kubernetes
+   
+   Apply at: https://in.linkedin.com/jobs/view/machine-learning-engineer-at-sourcingxpress-4367124842?position=29&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=yeqgYS9MMkAdG%2Bd8bOQfMg%3D%3D
+   
+   ---
+
+40. Senior Data Scientist
+   Company: GITAA
+   Location: Chennai, Tamil Nadu, India | Not specified
+   Match Score: 56.64%
+   Skill Match: 88.2%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: computer vision, tensorflow, pytorch, ml, llm, data science, deep learning, docker, genai, nlp
+   Skills to develop: azure, kubernetes
+   
+   Apply at: https://in.linkedin.com/jobs/view/senior-data-scientist-at-gitaa-4367789900?position=41&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=OKmChQzHUn%2BGWl1ylo7zYQ%3D%3D
+   
+   ---
+
+41. Specialist - Finance Data Scientist
+   Company: HARMAN India
+   Location: Bengaluru, Karnataka, India | Remote
+   Match Score: 54.76%
+   Skill Match: 88.9%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: tensorflow, pytorch, scikit-learn, data science, python, pandas, ai, sql, machine learning, aws
+   Skills to develop: azure
+   
+   Apply at: https://in.linkedin.com/jobs/view/specialist-finance-data-scientist-at-harman-india-4313052910?position=12&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=k4Q1qN5f8hfjTXsGktC%2BjQ%3D%3D
+   
+   ---
+
+42. Senior Research Associate
+   Company: NielsenIQ
+   Location: Vadodara, Gujarat, India | Not specified
+   Match Score: 54.62%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: ml, ai, aws
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/senior-research-associate-at-nielseniq-4367803499?position=53&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=DA%2F1Tmc0VxAr5UvIeO9n8w%3D%3D
+   
+   ---
+
+43. Data Engineer Python- Associate- Software Engineer
+   Company: Morgan Stanley
+   Location: Bengaluru, Karnataka, India | Not specified
+   Match Score: 54.09%
+   Skill Match: 75.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: python, ai, sql
+   Skills to develop: java
+   
+   Apply at: https://in.linkedin.com/jobs/view/data-engineer-python-associate-software-engineer-at-morgan-stanley-4359474410?position=5&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=nFkutC%2BJwNXFqxUlEVt0MQ%3D%3D
+   
+   ---
+
+44. Senior Engineer, Python (Data & AI)
+   Company: Tide
+   Location: Bengaluru, Karnataka, India | Remote
+   Match Score: 51.34%
+   Skill Match: 80.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: ml, python, ai, aws
+   Skills to develop: java
+   
+   Apply at: https://in.linkedin.com/jobs/view/senior-engineer-python-data-ai-at-tide-4321182293?position=39&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=yIs9E%2FGoI%2FtaboXLmOQirA%3D%3D
+   
+   ---
+
+45. Associate Data Scientist
+   Company: Anko GCC
+   Location: Bengaluru, Karnataka, India | Not specified
+   Match Score: 51.02%
+   Skill Match: 100.0%
+   
+   Why it's a good fit:
+   This position aligns well with your 3.0 years of experience and skill set.
+   
+   Matching Skills: data science, python, ai
+   
+   
+   Apply at: https://in.linkedin.com/jobs/view/associate-data-scientist-at-anko-gcc-4367765255?position=13&pageNum=0&refId=qiu20FyxKHAs2Sfr7Tx0JQ%3D%3D&trackingId=OltMLEUd1iO29%2BeCwUOj7g%3D%3D
+   
+   ---

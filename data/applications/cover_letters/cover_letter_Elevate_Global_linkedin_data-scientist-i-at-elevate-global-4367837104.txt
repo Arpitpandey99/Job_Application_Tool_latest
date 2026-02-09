@@ -1,0 +1,25 @@
+Arpit Pandey
+arpitpandey6599@gmail.com
++91-8359808703
+
+[Date]
+
+Hiring Manager
+Elevate Global
+Bengaluru, Karnataka, India
+
+Dear Hiring Manager,
+
+I am writing to express my interest in the Data Scientist I position at Elevate Global as advertised. With 3.5 years of experience in Artificial Intelligence (AI) and Analytics, and a track record of developing innovative solutions using cutting-edge technologies, I am excited about the opportunity to contribute to your team.
+
+During my tenure at ARMAKUNI, I played a pivotal role in the development of Call Assist Intelligence, a GenAI-driven voice assistance platform. Utilizing AWS Bedrock, Langfuse, Cloud Sonnet, and Amazon Transcribe, I successfully implemented speech-to-text conversion, showcasing my proficiency in cloud-native tools and AI technologies.
+
+Moreover, at FISERV, I spearheaded the development and deployment of a real-time Fraud Detection Model with an impressive F1 score of 91%. Leveraging XGBoost-based classification model, FastAPI, and Docker on AWS ECS, I achieved a remarkable 30ms response time, demonstrating my ability to deliver high-impact solutions efficiently.
+
+My educational background in Information Technology, coupled with hands-on experience in Python, SQL, and a range of AI frameworks such as Tensorflow and Pytorch, has equipped me with the skills necessary to excel in this role. I am particularly drawn to Elevate's focus on developing next-generation financial products and am eager to leverage my expertise to drive data-driven decisions for the organization.
+
+I am enthusiastic about the opportunity to bring my unique skill set to Elevate Global and contribute to your mission of revolutionizing financial product development. I would welcome the chance to discuss how my experiences align with the requirements of the Data Scientist I role. Thank you for considering my application.
+
+Warm regards,
+
+Arpit Pandey

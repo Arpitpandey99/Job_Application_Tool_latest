@@ -1,0 +1,68 @@
+2026-02-02 18:34:15 | INFO | Initializing Job Application Agent with OpenAI GPT...
+2026-02-02 18:34:15 | INFO | Loading sentence transformer model...
+2026-02-02 18:34:19 | INFO | Model loaded successfully
+2026-02-02 18:34:19 | INFO | Agent initialized successfully with GPT-3.5-turbo
+2026-02-02 18:34:19 | INFO | ======================================================================
+2026-02-02 18:34:19 | INFO | STARTING FULL JOB APPLICATION PIPELINE (OpenAI GPT)
+2026-02-02 18:34:19 | INFO | ======================================================================
+2026-02-02 18:34:19 | INFO | ==================================================
+2026-02-02 18:34:19 | INFO | STEP 1: Loading and parsing resume
+2026-02-02 18:34:19 | INFO | ==================================================
+2026-02-02 18:34:19 | INFO | Parsing resume: data/resumes/resume.pdf
+2026-02-02 18:34:33 | INFO | Successfully parsed resume for: ARPIT PANDEY
+2026-02-02 18:34:33 | INFO | Parsed resume for: ARPIT PANDEY
+2026-02-02 18:34:33 | INFO | Experience: 3.5 years
+2026-02-02 18:34:33 | INFO | Skills: 35 identified
+2026-02-02 18:34:33 | INFO | Resume data saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/parsed_resume.json
+2026-02-02 18:34:33 | INFO | ==================================================
+2026-02-02 18:34:33 | INFO | STEP 2: Scraping jobs from platforms
+2026-02-02 18:34:33 | INFO | ==================================================
+2026-02-02 18:34:33 | INFO | Searching for: Data Scientist
+2026-02-02 18:34:33 | INFO | Location: India
+2026-02-02 18:34:33 | INFO | Platforms: linkedin, indeed, naukri
+2026-02-02 18:34:33 | INFO | Scraping LinkedIn for: Data Scientist in India
+2026-02-02 18:34:58 | INFO | Scraped: Data Scientist at PwC India
+2026-02-02 18:35:01 | INFO | Scraped: Data Science Analyst at eBay
+2026-02-02 18:35:05 | INFO | Scraped: Data Scientist at Concentrix
+2026-02-02 18:35:09 | INFO | Scraped: Research Scientist at NielsenIQ
+2026-02-02 18:35:13 | INFO | Scraped: Data Scientist I at Elevate Global
+2026-02-02 18:35:13 | INFO | Scraped 5 jobs from linkedin
+2026-02-02 18:35:19 | INFO | Scraping Indeed for: Data Scientist in India
+2026-02-02 18:35:29 | INFO | Scraped 0 jobs from indeed
+2026-02-02 18:35:38 | INFO | Scraping Naukri for: Data Scientist in India
+2026-02-02 18:35:52 | INFO | Scraped 0 jobs from naukri
+2026-02-02 18:36:00 | INFO | Total unique jobs scraped: 5
+2026-02-02 18:36:00 | INFO | Total jobs scraped: 5
+2026-02-02 18:36:00 | INFO | Jobs data saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/jobs/scraped_jobs_20260202_183600.json
+2026-02-02 18:36:00 | INFO | ==================================================
+2026-02-02 18:36:00 | INFO | STEP 3: Matching jobs with resume
+2026-02-02 18:36:00 | INFO | ==================================================
+2026-02-02 18:36:00 | INFO | Matching 5 jobs with resume...
+2026-02-02 18:36:01 | INFO | Found 1 matching jobs (threshold: 0.5)
+2026-02-02 18:36:01 | INFO | Found 1 matching jobs
+2026-02-02 18:36:01 | INFO | Match report saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/applications/match_report_20260202_183601.txt
+2026-02-02 18:36:01 | INFO | ==================================================
+2026-02-02 18:36:01 | INFO | STEP 4: Generating cover letters
+2026-02-02 18:36:01 | INFO | ==================================================
+2026-02-02 18:36:01 | INFO | Generating cover letter 1/1 for: Data Scientist I
+2026-02-02 18:36:01 | INFO | Generating cover letter for: Data Scientist I at Elevate Global
+2026-02-02 18:36:05 | INFO | Cover letter generated successfully
+2026-02-02 18:36:05 | ERROR | Failed to optimize cover letter: Using fallback
+2026-02-02 18:36:05 | INFO | Cover letter saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/applications/cover_letters/cover_letter_Elevate_Global_linkedin_data-scientist-i-at-elevate-global-4367837104.txt
+2026-02-02 18:36:08 | INFO | Generated 1 cover letters
+2026-02-02 18:36:08 | INFO | ==================================================
+2026-02-02 18:36:08 | INFO | STEP 5: Applying to jobs
+2026-02-02 18:36:08 | INFO | ==================================================
+2026-02-02 18:36:08 | WARNING | Auto-submit is disabled. Applications will be prepared but not submitted.
+2026-02-02 18:36:08 | INFO | Processing application 1/1: Data Scientist I
+2026-02-02 18:36:08 | INFO | Starting application for: Data Scientist I at Elevate Global
+2026-02-02 18:36:09 | INFO | LinkedIn application - Manual login required
+2026-02-02 18:36:45 | WARNING | Could not find Easy Apply button - job may require external application
+2026-02-02 18:36:45 | INFO | Added application to tracker: linkedin_data-scientist-i-at-elevate-global-4367837104
+2026-02-02 18:37:45 | INFO | Application results saved to: /Users/arpitpandey/Documents/Personal/Job_Application_Tool/data/applications/application_results_20260202_183745.json
+2026-02-02 18:37:45 | INFO | Applications summary: 0/1 successful
+2026-02-02 18:37:45 | INFO | ======================================================================
+2026-02-02 18:37:45 | INFO | PIPELINE COMPLETED in 206.20 seconds
+2026-02-02 18:37:45 | INFO | ======================================================================
+2026-02-02 18:37:45 | INFO | Total applications tracked: 6
+2026-02-02 18:37:45 | INFO | Average match score: 70.94%

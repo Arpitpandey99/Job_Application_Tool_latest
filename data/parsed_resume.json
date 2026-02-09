@@ -1,0 +1,82 @@
+{
+  "name": "ARPIT PANDEY",
+  "email": "arpitpandey6599@gmail.com",
+  "phone": "+91-8359808703",
+  "location": "",
+  "summary": "Artificial Intelligence (AI) and Analytics Specialist with expertise in predictive modeling, data pipeline optimization, and advanced algorithm development. Proficient in leveraging cloud-native tools, supervised and unsupervised learning techniques, and generative AI for innovative solutions. Skilled in process automation, exploratory data analysis, and AI-driven strategies to deliver measurable business outcomes.",
+  "skills": [
+    "Python",
+    "SQL",
+    "Linux",
+    "Pandas",
+    "Polars",
+    "Scikit-Learn",
+    "Tensorflow",
+    "Keras",
+    "Pytorch",
+    "OpenCV",
+    "Data Preprocessing",
+    "Data Analysis and Visualization",
+    "Dimentionality Reduction (PCA)",
+    "Feature Engineering and EDA",
+    "Statistical Analysis",
+    "Parameter Tuning",
+    "Error Analysis (Precision/Recall/ F1 Score)",
+    "Linear Regression",
+    "Logistic Regression",
+    "Classification (Decision Tree, SVM)",
+    "Unsupervised Learning (Clustering)",
+    "Ensemble Learning (Bagging, Boosting, AdaBoost)",
+    "Predictive Modeling",
+    "Artificial Neural Networks (ANN)",
+    "Convolutional Neural Networks (CNN)",
+    "Recurrent Neural Networks (RNN)",
+    "LSTM",
+    "GRU",
+    "Computer Vision",
+    "Natural Language Processing (NLP)",
+    "Transformers",
+    "Diffusion Models",
+    "Generative Adversial Networks (GAN)",
+    "Retrieval-Augmented Generation (RAG)",
+    "Large Language Models (LLMs)"
+  ],
+  "experience": [
+    {
+      "title": "AI/ML Engineer",
+      "company": "ARMAKUNI",
+      "duration": "Mar 2025 - Present",
+      "years": 0.5,
+      "description": "Contributed to the development of Call Assist Intelligence, a GenAI-driven voice assistance platform utilizing AWS Bedrock, Langfuse, Cloud Sonnet, and Amazon Transcribe for speech-to-text conversion and model observability. Developed FastAPI-based backend services to integrate LLMs and transcription pipelines, enabling seamless voice interaction workflows and improving response accuracy and latency."
+    },
+    {
+      "title": "Professional Data Analysis I",
+      "company": "FISERV",
+      "duration": "Aug 2022 - Mar 2025",
+      "years": 2.5,
+      "description": "Developed and deployed a real-time Fraud Detection Model using an XGBoost-based classification model with F1 score of 91%, integrated via FastAPI and Docker on AWS ECS achieving 30ms response time. Built a Random Forest model for fraud alert decision recommender system, achieving an F1 score of 88%, leveraging advanced data preprocessing and statistical analysis techniques. Architected a scalable MLOps framework for automated model retraining and optimization, utilizing AWS SageMaker, AWS (S3, Lambda, Glue), Snowflake, GitLab (CI/CD Pipeline) to ensure seamless workflows. Designed a vector embedding based entity-matching system and implemented a Generative AI proof of concept using Amazon Bedrock to summarize fraud alert details with LLMs. Developed and managed end-to-end ETL pipelines using Talend for integrating diverse data formats into a Snowflake data warehouse, ensuring reliability and scalability."
+    },
+    {
+      "title": "Python Intern",
+      "company": "PERSISTENT",
+      "duration": "Jan 2022 - Jul 2022",
+      "years": 0.5,
+      "description": "Acquired proficiency in Python, encompassing essential concepts and libraries such as Numpy, Pandas, Matplotlib, Scikit-learn and Neural Networks for implementing data analytics and machine learning tasks."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post Gratuate Certification",
+      "institution": "Indian Institute of Technology Delhi University",
+      "year": "2025",
+      "field": "Information Technology"
+    },
+    {
+      "degree": "B.Tech. in Information Technology",
+      "institution": "University Institute of Technology RGPV, Bhopal",
+      "year": "2022",
+      "field": "Information Technology"
+    }
+  ],
+  "total_experience_years": 3.5
+}
