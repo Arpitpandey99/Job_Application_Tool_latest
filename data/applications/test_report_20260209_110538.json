@@ -1,0 +1,23 @@
+{
+  "resume_parsing": "PASS",
+  "scraping": {
+    "linkedin": "PASS (SIMULATED) - 5 jobs (proxy blocked live scraping)",
+    "indeed": "PASS (SIMULATED) - 5 jobs (proxy blocked live scraping)",
+    "naukri": "PASS (SIMULATED) - 5 jobs (proxy blocked live scraping)"
+  },
+  "matching": {
+    "linkedin": "PASS - 1 matches",
+    "indeed": "PASS - 1 matches",
+    "naukri": "PASS - 2 matches"
+  },
+  "cover_letters": {
+    "linkedin": "PASS - 1 letters generated",
+    "indeed": "PASS - 1 letters generated",
+    "naukri": "PASS - 1 letters generated"
+  },
+  "applications": {
+    "linkedin": "PASS - 1 tracked (total DB: 7)",
+    "indeed": "PASS - 1 tracked (total DB: 8)",
+    "naukri": "PASS - 2 tracked (total DB: 10)"
+  }
+}

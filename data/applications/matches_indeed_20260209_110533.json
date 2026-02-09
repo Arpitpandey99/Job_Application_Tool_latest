@@ -1,0 +1,22 @@
+[
+  {
+    "job_id": "indeed_1_1770635133",
+    "title": "Data Scientist",
+    "company": "Accenture",
+    "score": 0.3123,
+    "skill_match": 0.5,
+    "matching_skills": [
+      "tensorflow",
+      "python",
+      "computer vision",
+      "sql",
+      "scikit-learn"
+    ],
+    "missing_skills": [
+      "machine learning",
+      "deep learning",
+      "nlp",
+      "ai"
+    ]
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "job_id": "indeed_1_1770635171",
+    "title": "Data Scientist",
+    "company": "Accenture",
+    "score": 0.3123,
+    "skill_match": 0.5,
+    "matching_skills": [
+      "tensorflow",
+      "computer vision",
+      "python",
+      "scikit-learn",
+      "sql"
+    ],
+    "missing_skills": [
+      "machine learning",
+      "deep learning",
+      "nlp",
+      "ai"
+    ]
+  },
+  {
+    "job_id": "indeed_4_1770635171",
+    "title": "Data Scientist - NLP",
+    "company": "Paytm",
+    "score": 0.2916,
+    "skill_match": 0.5,
+    "matching_skills": [
+      "transformers",
+      "python"
+    ],
+    "missing_skills": [
+      "nlp"
+    ]
+  },
+  {
+    "job_id": "indeed_5_1770635171",
+    "title": "Applied ML Scientist",
+    "company": "Razorpay",
+    "score": 0.2216,
+    "skill_match": 0.29,
+    "matching_skills": [
+      "python",
+      "sql"
+    ],
+    "missing_skills": [
+      "aws",
+      "docker",
+      "machine learning",
+      "deep learning",
+      "ml"
+    ]
+  },
+  {
+    "job_id": "indeed_2_1770635171",
+    "title": "Machine Learning Engineer",
+    "company": "Flipkart",
+    "score": 0.2077,
+    "skill_match": 0.38,
+    "matching_skills": [
+      "python",
+      "pytorch",
+      "sql"
+    ],
+    "missing_skills": [
+      "docker",
+      "kubernetes",
+      "deep learning",
+      "nlp",
+      "ml"
+    ]
+  },
+  {
+    "job_id": "indeed_3_1770635171",
+    "title": "Senior AI Engineer",
+    "company": "Tech Mahindra",
+    "score": 0.1746,
+    "skill_match": 0.14,
+    "matching_skills": [
+      "python"
+    ],
+    "missing_skills": [
+      "aws",
+      "docker",
+      "ml",
+      "ai",
+      "generative ai",
+      "llm"
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "job_id": "linkedin_3_1770635154",
+    "title": "Data Scientist - Fraud Analytics",
+    "company": "HDFC Bank",
+    "score": 0.3383,
+    "skill_match": 0.5,
+    "matching_skills": [
+      "statistical analysis",
+      "python",
+      "sql"
+    ],
+    "missing_skills": [
+      "machine learning",
+      "deep learning"
+    ]
+  },
+  {
+    "job_id": "linkedin_4_1770635154",
+    "title": "AI/ML Scientist",
+    "company": "Amazon",
+    "score": 0.2418,
+    "skill_match": 0.44,
+    "matching_skills": [
+      "tensorflow",
+      "computer vision",
+      "python",
+      "pytorch"
+    ],
+    "missing_skills": [
+      "aws",
+      "deep learning",
+      "nlp",
+      "ml",
+      "ai"
+    ]
+  },
+  {
+    "job_id": "linkedin_1_1770635154",
+    "title": "Senior Data Scientist",
+    "company": "Infosys",
+    "score": 0.2085,
+    "skill_match": 0.27,
+    "matching_skills": [
+      "tensorflow",
+      "python",
+      "pytorch"
+    ],
+    "missing_skills": [
+      "aws",
+      "machine learning",
+      "deep learning",
+      "nlp",
+      "ml",
+      "ai",
+      "generative ai",
+      "llm"
+    ]
+  },
+  {
+    "job_id": "linkedin_2_1770635154",
+    "title": "ML Engineer - GenAI",
+    "company": "Wipro",
+    "score": 0.2045,
+    "skill_match": 0.27,
+    "matching_skills": [
+      "transformers",
+      "computer vision",
+      "python",
+      "pytorch"
+    ],
+    "missing_skills": [
+      "aws",
+      "docker",
+      "nlp",
+      "data science",
+      "ml",
+      "ai",
+      "generative ai",
+      "llm"
+    ]
+  }
+]

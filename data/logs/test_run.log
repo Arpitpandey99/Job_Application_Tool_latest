@@ -1,0 +1,89 @@
+2026-02-09 07:32:12 | INFO | Scraping LinkedIn for: data scientist in India
+2026-02-09 07:32:12 | ERROR | LinkedIn scraping error: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-02-09 07:32:12 | INFO | Scraping Indeed for: data scientist in India
+2026-02-09 07:32:12 | ERROR | Indeed scraping error: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-02-09 07:32:12 | INFO | Scraping Naukri for: data scientist in India
+2026-02-09 07:32:12 | ERROR | Naukri scraping error: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-02-09 11:01:53 | INFO | Scraping LinkedIn for: data scientist in India
+2026-02-09 11:01:53 | ERROR | LinkedIn scraping error: HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/search/?keywords=data+scientist&location=India&f_TPR=r86400&position=1&pageNum=0 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-09 11:01:53 | INFO | Scraping Indeed for: data scientist in India
+2026-02-09 11:01:53 | ERROR | Indeed scraping error: HTTPSConnectionPool(host='www.indeed.co.in', port=443): Max retries exceeded with url: /jobs?q=data+scientist&l=India&fromage=3 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-09 11:01:53 | INFO | Scraping Naukri for: data scientist in India
+2026-02-09 11:01:53 | ERROR | Naukri scraping error: HTTPSConnectionPool(host='www.naukri.com', port=443): Max retries exceeded with url: /data-scientist-jobs (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-09 11:03:23 | INFO | Scraping LinkedIn for: data scientist in India
+2026-02-09 11:03:23 | ERROR | LinkedIn scraping error: HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/search/?keywords=data+scientist&location=India&f_TPR=r86400&position=1&pageNum=0 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-09 11:04:34 | INFO | Loading sentence transformer model...
+2026-02-09 11:05:16 | INFO | Scraping LinkedIn for: data scientist in India
+2026-02-09 11:05:16 | ERROR | LinkedIn scraping error: HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/search/?keywords=data+scientist&location=India&f_TPR=r86400&position=1&pageNum=0 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-09 11:05:30 | INFO | Loading sentence transformer model...
+2026-02-09 11:05:30 | WARNING | Sentence transformer unavailable (403 Forbidden), using TF-IDF matching
+2026-02-09 11:05:30 | INFO | Matching 5 jobs with resume...
+2026-02-09 11:05:30 | INFO | Found 1 matching jobs (threshold: 0.3)
+2026-02-09 11:05:30 | INFO | Generating cover letter for: Data Scientist - Fraud Analytics at HDFC Bank
+2026-02-09 11:05:32 | ERROR | Failed to generate cover letter: Connection error.
+2026-02-09 11:05:32 | INFO | Cover letter saved to: /home/user/Job_Application_Tool_latest/data/applications/cover_letters/cover_letter_HDFC_Bank_linkedin_3_1770635116.txt
+2026-02-09 11:05:33 | INFO | Added application to tracker: linkedin_3_1770635116
+2026-02-09 11:05:33 | INFO | Scraping Indeed for: data scientist in India
+2026-02-09 11:05:33 | ERROR | Indeed scraping error: HTTPSConnectionPool(host='www.indeed.co.in', port=443): Max retries exceeded with url: /jobs?q=data+scientist&l=India&fromage=3 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-09 11:05:33 | INFO | Loading sentence transformer model...
+2026-02-09 11:05:33 | WARNING | Sentence transformer unavailable (403 Forbidden), using TF-IDF matching
+2026-02-09 11:05:33 | INFO | Matching 5 jobs with resume...
+2026-02-09 11:05:33 | INFO | Found 1 matching jobs (threshold: 0.3)
+2026-02-09 11:05:34 | INFO | Generating cover letter for: Data Scientist at Accenture
+2026-02-09 11:05:35 | ERROR | Failed to generate cover letter: Connection error.
+2026-02-09 11:05:35 | INFO | Cover letter saved to: /home/user/Job_Application_Tool_latest/data/applications/cover_letters/cover_letter_Accenture_indeed_1_1770635133.txt
+2026-02-09 11:05:36 | INFO | Added application to tracker: indeed_1_1770635133
+2026-02-09 11:05:36 | INFO | Scraping Naukri for: data scientist in India
+2026-02-09 11:05:36 | ERROR | Naukri scraping error: HTTPSConnectionPool(host='www.naukri.com', port=443): Max retries exceeded with url: /data-scientist-jobs (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-09 11:05:36 | INFO | Loading sentence transformer model...
+2026-02-09 11:05:36 | WARNING | Sentence transformer unavailable (403 Forbidden), using TF-IDF matching
+2026-02-09 11:05:36 | INFO | Matching 5 jobs with resume...
+2026-02-09 11:05:36 | INFO | Found 2 matching jobs (threshold: 0.3)
+2026-02-09 11:05:36 | INFO | Generating cover letter for: Senior Data Scientist - Computer Vision at Samsung R&D
+2026-02-09 11:05:37 | ERROR | Failed to generate cover letter: Connection error.
+2026-02-09 11:05:37 | INFO | Cover letter saved to: /home/user/Job_Application_Tool_latest/data/applications/cover_letters/cover_letter_Samsung_R&D_naukri_5_1770635136.txt
+2026-02-09 11:05:38 | INFO | Added application to tracker: naukri_5_1770635136
+2026-02-09 11:05:38 | INFO | Added application to tracker: naukri_2_1770635136
+2026-02-09 11:05:54 | INFO | Scraping LinkedIn for: data scientist in India
+2026-02-09 11:05:54 | ERROR | LinkedIn scraping error: HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/search/?keywords=data+scientist&location=India&f_TPR=r86400&position=1&pageNum=0 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-09 11:06:07 | INFO | Loading sentence transformer model...
+2026-02-09 11:06:07 | WARNING | Sentence transformer unavailable (403 Forbidden), using TF-IDF matching
+2026-02-09 11:06:07 | INFO | Matching 5 jobs with resume...
+2026-02-09 11:06:07 | INFO | Found 4 matching jobs (threshold: 0.15)
+2026-02-09 11:06:08 | INFO | Generating cover letter for: Data Scientist - Fraud Analytics at HDFC Bank
+2026-02-09 11:06:09 | ERROR | Failed to generate cover letter: Connection error.
+2026-02-09 11:06:09 | INFO | Cover letter saved to: /home/user/Job_Application_Tool_latest/data/applications/cover_letters/cover_letter_HDFC_Bank_linkedin_3_1770635154.txt
+2026-02-09 11:06:11 | INFO | Added application to tracker: linkedin_3_1770635154
+2026-02-09 11:06:11 | INFO | Added application to tracker: linkedin_4_1770635154
+2026-02-09 11:06:11 | INFO | Added application to tracker: linkedin_1_1770635154
+2026-02-09 11:06:11 | INFO | Added application to tracker: linkedin_2_1770635154
+2026-02-09 11:06:11 | INFO | Scraping Indeed for: data scientist in India
+2026-02-09 11:06:11 | ERROR | Indeed scraping error: HTTPSConnectionPool(host='www.indeed.co.in', port=443): Max retries exceeded with url: /jobs?q=data+scientist&l=India&fromage=3 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-09 11:06:11 | INFO | Loading sentence transformer model...
+2026-02-09 11:06:11 | WARNING | Sentence transformer unavailable (403 Forbidden), using TF-IDF matching
+2026-02-09 11:06:11 | INFO | Matching 5 jobs with resume...
+2026-02-09 11:06:11 | INFO | Found 5 matching jobs (threshold: 0.15)
+2026-02-09 11:06:11 | INFO | Generating cover letter for: Data Scientist at Accenture
+2026-02-09 11:06:12 | ERROR | Failed to generate cover letter: Connection error.
+2026-02-09 11:06:12 | INFO | Cover letter saved to: /home/user/Job_Application_Tool_latest/data/applications/cover_letters/cover_letter_Accenture_indeed_1_1770635171.txt
+2026-02-09 11:06:13 | INFO | Added application to tracker: indeed_1_1770635171
+2026-02-09 11:06:13 | INFO | Added application to tracker: indeed_4_1770635171
+2026-02-09 11:06:13 | INFO | Added application to tracker: indeed_5_1770635171
+2026-02-09 11:06:13 | INFO | Added application to tracker: indeed_2_1770635171
+2026-02-09 11:06:13 | INFO | Added application to tracker: indeed_3_1770635171
+2026-02-09 11:06:13 | INFO | Scraping Naukri for: data scientist in India
+2026-02-09 11:06:13 | ERROR | Naukri scraping error: HTTPSConnectionPool(host='www.naukri.com', port=443): Max retries exceeded with url: /data-scientist-jobs (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-09 11:06:13 | INFO | Loading sentence transformer model...
+2026-02-09 11:06:13 | WARNING | Sentence transformer unavailable (403 Forbidden), using TF-IDF matching
+2026-02-09 11:06:13 | INFO | Matching 5 jobs with resume...
+2026-02-09 11:06:13 | INFO | Found 4 matching jobs (threshold: 0.15)
+2026-02-09 11:06:13 | INFO | Generating cover letter for: Senior Data Scientist - Computer Vision at Samsung R&D
+2026-02-09 11:06:15 | ERROR | Failed to generate cover letter: Connection error.
+2026-02-09 11:06:15 | INFO | Cover letter saved to: /home/user/Job_Application_Tool_latest/data/applications/cover_letters/cover_letter_Samsung_R&D_naukri_5_1770635173.txt
+2026-02-09 11:06:16 | INFO | Added application to tracker: naukri_5_1770635173
+2026-02-09 11:06:16 | INFO | Added application to tracker: naukri_2_1770635173
+2026-02-09 11:06:16 | INFO | Added application to tracker: naukri_4_1770635173
+2026-02-09 11:06:16 | INFO | Added application to tracker: naukri_3_1770635173

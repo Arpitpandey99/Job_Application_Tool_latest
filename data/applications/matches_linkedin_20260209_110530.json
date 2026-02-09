@@ -1,0 +1,18 @@
+[
+  {
+    "job_id": "linkedin_3_1770635116",
+    "title": "Data Scientist - Fraud Analytics",
+    "company": "HDFC Bank",
+    "score": 0.3383,
+    "skill_match": 0.5,
+    "matching_skills": [
+      "python",
+      "statistical analysis",
+      "sql"
+    ],
+    "missing_skills": [
+      "machine learning",
+      "deep learning"
+    ]
+  }
+]

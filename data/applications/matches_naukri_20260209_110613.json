@@ -1,0 +1,76 @@
+[
+  {
+    "job_id": "naukri_5_1770635173",
+    "title": "Senior Data Scientist - Computer Vision",
+    "company": "Samsung R&D",
+    "score": 0.3717,
+    "skill_match": 0.75,
+    "matching_skills": [
+      "computer vision",
+      "python",
+      "opencv",
+      "pytorch"
+    ],
+    "missing_skills": [
+      "deep learning"
+    ]
+  },
+  {
+    "job_id": "naukri_2_1770635173",
+    "title": "Data Scientist",
+    "company": "Jio Platforms",
+    "score": 0.308,
+    "skill_match": 0.4,
+    "matching_skills": [
+      "python",
+      "sql",
+      "predictive modeling"
+    ],
+    "missing_skills": [
+      "aws",
+      "machine learning",
+      "deep learning"
+    ]
+  },
+  {
+    "job_id": "naukri_4_1770635173",
+    "title": "Machine Learning Developer",
+    "company": "Cognizant",
+    "score": 0.2531,
+    "skill_match": 0.38,
+    "matching_skills": [
+      "tensorflow",
+      "computer vision",
+      "python",
+      "scikit-learn"
+    ],
+    "missing_skills": [
+      "docker",
+      "machine learning",
+      "nlp",
+      "ml",
+      "ai"
+    ]
+  },
+  {
+    "job_id": "naukri_3_1770635173",
+    "title": "AI/ML Lead",
+    "company": "Mindtree",
+    "score": 0.2388,
+    "skill_match": 0.4,
+    "matching_skills": [
+      "tensorflow",
+      "computer vision",
+      "python",
+      "pytorch"
+    ],
+    "missing_skills": [
+      "docker",
+      "machine learning",
+      "deep learning",
+      "nlp",
+      "ml",
+      "ai"
+    ]
+  }
+]
