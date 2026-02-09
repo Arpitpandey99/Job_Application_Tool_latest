@@ -1,1 +1,6 @@
-/.env__pycache__/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+data/job_applications.db
+data/logs/
