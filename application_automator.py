@@ -27,18 +27,21 @@ class ApplicationAutomator:
     def init_driver(self):
         """Initialize WebDriver"""
         from selenium.webdriver.chrome.options import Options
-        
+        from selenium.webdriver.chrome.service import Service
+
         chrome_options = Options()
+        chrome_options.binary_location = '/root/.cache/ms-playwright/chromium-1194/chrome-linux/chrome'
         if self.headless:
-            chrome_options.add_argument('--headless')
-        
+            chrome_options.add_argument('--headless=new')
+
         chrome_options.add_argument('--disable-blink-features=AutomationControlled')
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-dev-shm-usage')
         chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
         chrome_options.add_experimental_option('useAutomationExtension', False)
-        
-        self.driver = webdriver.Chrome(options=chrome_options)
+
+        service = Service(executable_path='/opt/node22/bin/chromedriver')
+        self.driver = webdriver.Chrome(service=service, options=chrome_options)
         self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         
         return self.driver
@@ -329,7 +332,7 @@ class ApplicationAutomator:
             if apply_btn:
                 apply_btn[0].click()
                 time.sleep(2)
-                
+
                 logger.info("Naukri application initiated")
                 return {
                     'success': True,
@@ -339,7 +342,15 @@ class ApplicationAutomator:
                     'applied_at': time.time(),
                     'error': None
                 }
-            
+            else:
+                return {
+                    'success': False,
+                    'job_id': job.job_id,
+                    'job_title': job.title,
+                    'company': job.company,
+                    'error': 'Apply button not found'
+                }
+
         except Exception as e:
             logger.error(f"Naukri application error: {e}")
             return {

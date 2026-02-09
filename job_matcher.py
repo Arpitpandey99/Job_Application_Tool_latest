@@ -1,11 +1,12 @@
 """
 Job Matcher - AI-powered job matching using semantic similarity
 Modified to use OpenAI GPT API
+Falls back to TF-IDF matching when sentence-transformers model unavailable
 """
 import numpy as np
 from typing import List, Dict, Tuple
-from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.feature_extraction.text import TfidfVectorizer
 from dataclasses import dataclass
 from openai import OpenAI
 from loguru import logger
@@ -28,17 +29,25 @@ class JobMatch:
 
 class JobMatcher:
     """Match jobs with resume using semantic similarity and AI reasoning"""
-    
+
     def __init__(self, api_key: str, similarity_threshold: float = 0.7, model: str = "gpt-3.5-turbo"):
         self.client = OpenAI(api_key=api_key)
         self.model = model
         self.similarity_threshold = similarity_threshold
-        
-        # Load sentence transformer for semantic similarity
-        logger.info("Loading sentence transformer model...")
-        self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
-        logger.info("Model loaded successfully")
-    
+        self.embedding_model = None
+        self.use_tfidf = False
+
+        # Try to load sentence transformer, fall back to TF-IDF
+        try:
+            from sentence_transformers import SentenceTransformer
+            logger.info("Loading sentence transformer model...")
+            self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
+            logger.info("Sentence transformer model loaded successfully")
+        except Exception as e:
+            logger.warning(f"Sentence transformer unavailable ({e}), using TF-IDF matching")
+            self.use_tfidf = True
+            self.tfidf = TfidfVectorizer(stop_words='english', max_features=5000)
+
     def match_jobs(
         self,
         resume: ParsedResume,
@@ -46,57 +55,66 @@ class JobMatcher:
         top_k: int = 20
     ) -> List[JobMatch]:
         """Match jobs with resume and return top matches"""
-        
+
         logger.info(f"Matching {len(jobs)} jobs with resume...")
-        
-        # Create resume embedding
+
         resume_text = self._create_resume_text(resume)
-        resume_embedding = self.embedding_model.encode([resume_text])[0]
-        
         matches = []
-        
-        for job in jobs:
-            try:
-                # Create job embedding
-                job_text = self._create_job_text(job)
-                job_embedding = self.embedding_model.encode([job_text])[0]
-                
-                # Calculate semantic similarity
-                similarity = cosine_similarity(
-                    [resume_embedding],
-                    [job_embedding]
-                )[0][0]
-                
-                # Calculate skill match
-                skill_match = self._calculate_skill_match(resume, job)
-                
-                # Combined score (70% semantic, 30% skill match)
-                match_score = 0.7 * similarity + 0.3 * skill_match['percentage']
-                
-                if match_score >= self.similarity_threshold:
-                    # Get AI reasoning
-                    reasoning = self._get_ai_reasoning(resume, job, match_score)
-                    
-                    match = JobMatch(
-                        job=job,
-                        match_score=match_score,
-                        skill_match_percentage=skill_match['percentage'],
-                        reasoning=reasoning,
-                        missing_skills=skill_match['missing'],
-                        matching_skills=skill_match['matching']
-                    )
-                    matches.append(match)
-                    
-            except Exception as e:
-                logger.warning(f"Error matching job {job.job_id}: {e}")
-                continue
-        
-        # Sort by match score
+
+        if self.use_tfidf:
+            matches = self._match_with_tfidf(resume, resume_text, jobs)
+        else:
+            resume_embedding = self.embedding_model.encode([resume_text])[0]
+            for job in jobs:
+                try:
+                    job_text = self._create_job_text(job)
+                    job_embedding = self.embedding_model.encode([job_text])[0]
+                    similarity = cosine_similarity([resume_embedding], [job_embedding])[0][0]
+                    skill_match = self._calculate_skill_match(resume, job)
+                    match_score = 0.7 * similarity + 0.3 * skill_match['percentage']
+
+                    if match_score >= self.similarity_threshold:
+                        reasoning = self._get_ai_reasoning(resume, job, match_score)
+                        matches.append(JobMatch(
+                            job=job, match_score=match_score,
+                            skill_match_percentage=skill_match['percentage'],
+                            reasoning=reasoning,
+                            missing_skills=skill_match['missing'],
+                            matching_skills=skill_match['matching']
+                        ))
+                except Exception as e:
+                    logger.warning(f"Error matching job {job.job_id}: {e}")
+                    continue
+
         matches.sort(key=lambda x: x.match_score, reverse=True)
-        
         logger.info(f"Found {len(matches)} matching jobs (threshold: {self.similarity_threshold})")
-        
         return matches[:top_k]
+
+    def _match_with_tfidf(self, resume: ParsedResume, resume_text: str, jobs: List[JobListing]) -> List['JobMatch']:
+        """Fallback matching using TF-IDF when sentence-transformers is unavailable"""
+        matches = []
+        job_texts = [self._create_job_text(job) for job in jobs]
+        all_texts = [resume_text] + job_texts
+
+        tfidf_matrix = self.tfidf.fit_transform(all_texts)
+        resume_vec = tfidf_matrix[0:1]
+        job_vecs = tfidf_matrix[1:]
+        similarities = cosine_similarity(resume_vec, job_vecs)[0]
+
+        for i, (job, similarity) in enumerate(zip(jobs, similarities)):
+            skill_match = self._calculate_skill_match(resume, job)
+            match_score = 0.6 * similarity + 0.4 * skill_match['percentage']
+
+            if match_score >= self.similarity_threshold:
+                reasoning = self._get_ai_reasoning(resume, job, match_score)
+                matches.append(JobMatch(
+                    job=job, match_score=match_score,
+                    skill_match_percentage=skill_match['percentage'],
+                    reasoning=reasoning,
+                    missing_skills=skill_match['missing'],
+                    matching_skills=skill_match['matching']
+                ))
+        return matches
     
     def _create_resume_text(self, resume: ParsedResume) -> str:
         """Create searchable text from resume"""
@@ -216,7 +234,7 @@ Provide a brief, professional explanation of why this is a good fit. Focus on sk
         
         report = f"""
 JOB MATCH REPORT
-Generated: {matches[0].job.scraped_at.strftime('%Y-%m-%d %H:%M:%S') if matches else ''}
+Generated: {matches[0].job.scraped_at.strftime('%Y-%m-%d %H:%M:%S') if matches and hasattr(matches[0].job, 'scraped_at') else 'N/A'}
 
 CANDIDATE: {resume.name}
 EXPERIENCE: {resume.total_experience_years} years

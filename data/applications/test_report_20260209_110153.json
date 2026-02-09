@@ -1,0 +1,23 @@
+{
+  "resume_parsing": "PASS",
+  "scraping": {
+    "linkedin": "WARN - 0 jobs scraped (anti-bot protection likely)",
+    "indeed": "WARN - 0 jobs scraped (anti-bot protection likely)",
+    "naukri": "WARN - 0 jobs scraped (anti-bot protection likely)"
+  },
+  "matching": {
+    "linkedin": "SKIPPED - no jobs",
+    "indeed": "SKIPPED - no jobs",
+    "naukri": "SKIPPED - no jobs"
+  },
+  "cover_letters": {
+    "linkedin": "SKIPPED - no matches",
+    "indeed": "SKIPPED - no matches",
+    "naukri": "SKIPPED - no matches"
+  },
+  "applications": {
+    "linkedin": "SKIPPED - no matches",
+    "indeed": "SKIPPED - no matches",
+    "naukri": "SKIPPED - no matches"
+  }
+}
